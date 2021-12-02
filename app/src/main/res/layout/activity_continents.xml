@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F6FDFD"
+    tools:context=".Continents"
+    android:screenOrientation = "landscape">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:shadowColor="#03A9A9"
+        android:shadowDx="3"
+        android:shadowDy="3"
+        android:shadowRadius="1"
+        android:text="Welcome to  MEDIAZOO" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="50pt"
+        android:text="Choose a continent to explore!"
+        android:textAlignment="center"
+        android:textColor="#04B2B6"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/asia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="160dp"
+        android:textAlignment="center"
+        android:layout_marginTop="80pt"
+        android:text="Asia" />
+
+    <Button
+        android:id="@+id/africa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="160dp"
+        android:textAlignment="center"
+        android:layout_marginTop="100pt"
+        android:text="Africa" />
+
+    <Button
+        android:id="@+id/antarctica"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="138dp"
+        android:textAlignment="center"
+        android:layout_marginTop="160pt"
+        android:text="Antarctica" />
+
+    <Button
+        android:id="@+id/australia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="143dp"
+        android:textAlignment="center"
+        android:layout_marginTop="140pt"
+        android:text="Australia" />
+
+    <Button
+        android:id="@+id/europe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="157dp"
+        android:textAlignment="center"
+        android:layout_marginTop="120pt"
+        android:text="Europe" />
+
+    <Button
+        android:id="@+id/north"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="121dp"
+        android:textAlignment="center"
+        android:layout_marginTop="200pt"
+        android:text="North America" />
+
+    <Button
+        android:id="@+id/south"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="123dp"
+        android:textAlignment="center"
+        android:text="South America"
+        android:layout_marginTop="180pt"
+        />
+
+    <Button
+        android:id="@+id/life"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="160dp"
+        android:textAlignment="center"
+        android:text="Movie"
+        android:layout_marginTop="230pt"
+        />
+
+    <Button
+        android:id="@+id/Home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="160dp"
+        android:textAlignment="center"
+        android:text="Home"
+        android:layout_marginTop="280pt"
+        />
+
+</FrameLayout>

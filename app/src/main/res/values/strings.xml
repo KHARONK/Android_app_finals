@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">SD_FINALS</string>
+    <string name="app_name">MEDIAZOO</string>
+
+    <string name="hello_blank_fragment">MEDIAZOO</string>
 </resources>
