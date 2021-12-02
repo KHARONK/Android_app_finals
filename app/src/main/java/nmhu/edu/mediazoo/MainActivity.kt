@@ -56,7 +56,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun playAudio() {
-        val audioUrl = "https://www.videvo.net/sound-effect/lion-growl-angry-gene-pe931903/249943/"
+        val audioUrl = "https://freeanimalsounds.org/download/150/"
         // initializing media player
         var mediaPlayer = MediaPlayer()
         // code to stream media player (audio).
